@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app label {
+  margin-right: 1rem;
+}
+
+.search-box {
+  position: relative;
+}
+
+.input-text {
+  width: 20rem;
+  height: 2rem;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+li {
+  height: 1.5rem;
+  border: 1px solid lightblue;
+  padding: 0.2rem 0.3rem;
+  overflow: hidden;
+}
+
+li:hover {
+  background-color: lightcyan;
+}
